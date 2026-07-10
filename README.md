@@ -1,10 +1,10 @@
-Global Online Retail Sales & Customer Segmentation Analysis
+## Global Online Retail Sales & Customer Segmentation Analysis
 
-Project Overview
+## Project Overview
 This project analyzes an online retail dataset to uncover sales performance, customer purchasing behavior, and customer segmentation using RFM (Recency, Frequency, Monetary) analysis.
 The project demonstrates an end-to-end Business Analytics workflow using Python for data cleaning and Tableau for interactive dashboard development.
 
-Objectives
+## Objectives
 Analyze overall sales performance.
 Identify top-performing products and countries.
 Track monthly revenue trends.
@@ -12,13 +12,13 @@ Segment customers using the RFM model.
 Understand customer purchasing behavior.
 Provide business recommendations based on data insights.
 
-Tools Used
+## Tools Used
 Python (Pandas, NumPy)
 Jupyter Notebook
 Tableau
 GitHub
 
-Project Workflow
+## Project Workflow
 1. Data Cleaning (Python)
 The dataset was cleaned using Python by performing the following tasks:
 Removed duplicate records
@@ -31,7 +31,7 @@ Exported cleaned dataset as CSV for Tableau
 2. Data Visualization (Tableau)
 Three interactive dashboards were developed.
 
-Dashboard 1 – Global Online Retail Sales Dashboard
+## Dashboard 1 – Global Online Retail Sales Dashboard
 KPIs
 Total Revenue
 Total Orders
@@ -44,13 +44,13 @@ Monthly Revenue Trend
 Top 10 Products by Revenue
 Top 10 Countries by Revenue
 
-Business Insights
+## Business Insights
 Revenue peaks during October and November.
 United Kingdom contributes the highest revenue.
 A small number of products generate a significant portion of total sales.
 Sales are concentrated in a few high-performing countries.
 
-Dashboard 2 – Customer Segmentation & RFM Analysis
+## Dashboard 2 – Customer Segmentation & RFM Analysis
 KPIs
 Total Customers
 Champions
@@ -64,13 +64,13 @@ Revenue Contribution by Customer Segment
 Average Purchase Frequency
 Average Recency
 
-Business Insights
+## Business Insights
 Champions contribute the highest share of revenue.
 Loyal Customers make frequent repeat purchases.
 At Risk customers require retention campaigns.
 Potential Loyalists can be converted into loyal customers through targeted marketing.
 
-Dashboard 3 – Customer Trends & Insights
+## Dashboard 3 – Customer Trends & Insights
 KPIs
 Champions
 Loyal Customers
@@ -83,13 +83,13 @@ Monthly Customer Growth
 Top Countries by Customers
 Customer Segments by Country
 
-Business Insights
+## Business Insights
 Customer acquisition increases during October and November.
 Customer growth follows seasonal purchasing patterns.
 Customer quality differs across countries.
 High-value customer segments are concentrated in specific markets.
 
-Key Findings
+## Key Findings
 Total Revenue: ₹17.37 Million
 Total Orders: 34,585
 Total Customers: 5,878
@@ -98,15 +98,51 @@ Champions are the highest-value customer segment.
 Revenue shows strong seasonal growth during Q4.
 United Kingdom is the largest revenue-generating country.
 
-Business Recommendations
+## Business Recommendations
 Retain Champions using exclusive loyalty programs.
 Re-engage At Risk customers with personalized offers.
 Increase inventory before peak sales months.
 Expand marketing in high-performing countries.
 Promote best-selling products to maximize revenue.
+Future Improvements
 
-Live Dashboard
+- Add Profit and Margin Analysis to evaluate business profitability.
+- Develop Customer Lifetime Value (CLV) analysis for long-term customer insights.
+- Build sales forecasting models using time-series analysis.
+- Integrate SQL for automated data extraction and business reporting.
+- Add interactive dashboard navigation and drill-down functionality in Tableau.
+- Create product category and inventory performance dashboards.
+- Implement customer churn prediction using machine learning.
+- Connect the dashboard to a live database for real-time reporting.
+- Include marketing campaign performance analysis.
+- Automate the ETL pipeline for regular data refresh and dashboard updates.
+
+  ## Project Overview
+...
+
+## Dashboard Preview
+
+### Dashboard 1 – Global Online Retail Sales Dashboard
+
+![Dashboard 1](images/dashboard1.png)
+
+---
+
+### Dashboard 2 – Customer Segmentation & RFM Analysis
+
+![Dashboard 2](images/dashboard2.png)
+
+---
+
+### Dashboard 3 – Customer Trends & Insights
+
+![Dashboard 3](images/dashboard3.png)
+
+---
+
+## Live Dashboard
 View the interactive Tableau dashboards here:
+
 🔗 Tableau Public:
 https://public.tableau.com/views/customertrensandinsights/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 https://public.tableau.com/views/customertrensandinsights/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
