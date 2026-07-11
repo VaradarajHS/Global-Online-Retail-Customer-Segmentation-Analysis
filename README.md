@@ -124,19 +124,19 @@ Future Improvements
 
 ### Dashboard 1 – Global Online Retail Sales Dashboard
 
-![Dashboard 1](images/dashboard1.png)
+![Dashboard 1](images/Dashboard_Segmentation.png)
 
 ---
 
 ### Dashboard 2 – Customer Segmentation & RFM Analysis
 
-![Dashboard 2](images/dashboard2.png)
+![Dashboard 2](images/Customer_Segmentation.png)
 
 ---
 
 ### Dashboard 3 – Customer Trends & Insights
 
-![Dashboard 3](images/dashboard3.png)
+![Dashboard 3](images/Product_Analysis.png)
 
 ---
 
